@@ -1,0 +1,37 @@
+﻿@model ders4CoreBasic.Models.Personel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Personel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Adi)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Adi)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Soyadi)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Soyadi)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UnvanId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UnvanId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Pid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function fonksiyon(){
+            let inputs = document.getElementsByTagName("input");
+            for(elem of inputs){
+                elem.value = "changed";
+            }
+        }
+         
+    </script>
+</head>
+<body>
+    <input type="text" value="Deneme">
+    <br>
+    <input type="text" value="Deneme">
+    <br>
+    <input type="text" value="Deneme">
+    <br>
+    <button onclick="fonksiyon()">Mesaj Ver </button>
+</body>
+</html>
