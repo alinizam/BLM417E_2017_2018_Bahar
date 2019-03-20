@@ -1,0 +1,22 @@
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfoInputs.cache
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfo.cs
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.deps.json
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.json
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.dev.json
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.dll
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.pdb
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.dll
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.pdb
+C:\Users\FSMBLM1\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csprojResolveAssemblyReference.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.deps.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.dev.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.dll
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.pdb
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csprojAssemblyReference.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csproj.CoreCompileInputs.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfoInputs.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfo.cs
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.dll
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders05\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.pdb

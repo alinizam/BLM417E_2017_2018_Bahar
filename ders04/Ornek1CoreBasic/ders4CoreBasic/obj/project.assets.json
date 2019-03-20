@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alinizam\\source\\repos\\ders4CoreBasic\\ders4CoreBasic\\ders4CoreBasic.csproj",
+      "projectUniqueName": "D:\\calisma\\verilen dersler\\Internet Programlama\\2018_2019_Bahar\\code\\ders04\\Ornek1CoreBasic\\ders4CoreBasic\\ders4CoreBasic.csproj",
       "projectName": "ders4CoreBasic",
-      "projectPath": "C:\\Users\\alinizam\\source\\repos\\ders4CoreBasic\\ders4CoreBasic\\ders4CoreBasic.csproj",
+      "projectPath": "D:\\calisma\\verilen dersler\\Internet Programlama\\2018_2019_Bahar\\code\\ders04\\Ornek1CoreBasic\\ders4CoreBasic\\ders4CoreBasic.csproj",
       "packagesPath": "C:\\Users\\alinizam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alinizam\\source\\repos\\ders4CoreBasic\\ders4CoreBasic\\obj\\",
+      "outputPath": "D:\\calisma\\verilen dersler\\Internet Programlama\\2018_2019_Bahar\\code\\ders04\\Ornek1CoreBasic\\ders4CoreBasic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

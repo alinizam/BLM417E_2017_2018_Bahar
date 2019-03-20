@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebApplication2.Models.StudentCourses>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> Student name </th>
+            <th> Course name </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th> @item.Student.FirstName  </th>
+                <th> @item.CourseName  </th>
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+<p>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Exam name
+            </th>
+            <th>
+                Grade
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <!-- // FSMVU: Add course note into the page-->
+            @foreach (var i in item.CoursesNotes)
+            {
+                <tr>
+
+                    <td>
+                        @i.ExamName
+                    </td>
+                    <td>
+                        @i.Grade
+                    </td>
+
+                </tr>}
+        }
+    </tbody>
+</table>
