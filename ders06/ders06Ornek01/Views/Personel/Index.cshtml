@@ -1,0 +1,21 @@
+﻿@model Personel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>ViewBag kullanımı</h2>
+<h3>@ViewBag.adi</h3>
+<p></p>
+
+<h2>ViewData kullanımı</h2>
+<h3>@ViewData["ad"]</h3>
+
+<h2>Model üzerinden veri geçişi</h2>
+<h3>@Model.Adi</h3>
+
+
+
+<h2>Model üzerinden veri geçişi gösterim Tag Helper kullanarak </h2>
+<input asp-for="Adi">

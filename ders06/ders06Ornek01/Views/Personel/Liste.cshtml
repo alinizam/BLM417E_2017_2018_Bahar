@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Personel>
+@{
+    ViewData["Title"] = "Liste";
+}
+
+<form asp-controller="Personel" asp-action="Liste" method="get">
+    <p>
+        Search: <input type="text" name="searchString"/>
+        <input type="submit" value="Filter" />
+    </p>
+
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.PId)</th>
+            <th>@Html.DisplayNameFor(model => model.Adi)</th>
+            <th>@Html.DisplayNameFor(model => model.Soyadi)</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.PId</td>
+            <td>@Html.DisplayFor(model => p.Adi)</td>
+            <td>@Html.DisplayFor(model => p.Soyadi)</td>
+        </tr>
+    }
+
+    </tbody>
+
+
+</table>
+

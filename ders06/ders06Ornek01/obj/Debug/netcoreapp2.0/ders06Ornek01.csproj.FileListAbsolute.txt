@@ -1,0 +1,11 @@
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\bin\Debug\netcoreapp2.0\ders06Ornek01.deps.json
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\bin\Debug\netcoreapp2.0\ders06Ornek01.runtimeconfig.json
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\bin\Debug\netcoreapp2.0\ders06Ornek01.runtimeconfig.dev.json
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\bin\Debug\netcoreapp2.0\ders06Ornek01.dll
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\bin\Debug\netcoreapp2.0\ders06Ornek01.pdb
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.csprojResolveAssemblyReference.cache
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.csproj.CoreCompileInputs.cache
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.AssemblyInfoInputs.cache
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.AssemblyInfo.cs
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.dll
+C:\Users\FSMBLM1\source\repos\ders06Ornek01\ders06Ornek01\obj\Debug\netcoreapp2.0\ders06Ornek01.pdb
