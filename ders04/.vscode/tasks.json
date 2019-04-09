@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Ornek1CoreBasic/ders4CoreBasic/ders4CoreBasic.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

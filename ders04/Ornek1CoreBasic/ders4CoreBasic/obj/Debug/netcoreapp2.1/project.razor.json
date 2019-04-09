@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\calisma\\verilen dersler\\Internet Programlama\\2018_2019_Bahar\\code\\ders04\\Ornek1CoreBasic\\ders4CoreBasic\\ders4CoreBasic.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
