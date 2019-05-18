@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<body>
+<div ng-app="ngApp" ng-controller="myCtrl">
+    Adı:<input type="text" ng-model="filtre">
+    <button type="button" ng-click="filtrele()">Sorgula</button>
+    <ol>
+        <li ng-repeat="p in personel">
+            <personel-form> </personel-form>  
+        </li>
+    </ol>
+    <p>Yeni Personel Ekle</p>
+    Id:<input type="text" ng-model="id">
+    Adi:<input type="text" ng-model="adi">
+    Soyadi:<input type="text" ng-model="soyadi">
+    <button type="button" ng-click="personelEkle()">Personel Ekle</button>
+   
+</div>
+<script src="d12o3.js"></script>
+</body>
+</html>

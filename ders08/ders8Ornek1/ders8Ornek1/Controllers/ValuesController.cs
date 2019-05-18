@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ders8Ornek1.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ders8Ornek1.Controllers
@@ -17,9 +18,15 @@ namespace ders8Ornek1.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Personel> Get()
+        public IEnumerable<Personel> Get(string filtre)
         {
-            var personels =  _context.Personel.ToList();
+            IEnumerable<Personel> personels=null;
+            if (string.IsNullOrEmpty(filtre)) {
+                personels = _context.Personel;
+            }
+            else {
+                personels = _context.Personel.Where(p => p.Adi.Contains(filtre)).ToList();
+            }
             return personels;
         }
 
@@ -32,28 +39,30 @@ namespace ders8Ornek1.Controllers
         }
 
         // POST api/values
-       /* [HttpPost]
-        public ActionResult Post([FromQuery(Name="id")]int id, 
-                              [FromQuery(Name = "adi")]string adi,
-                              [FromQuery(Name = "soyadi")]string soyadi)
-        {
-            Personel p = new Personel();
-            p.PId = id;
-            p.Adi = adi;
-            p.Soyadi = soyadi;
-            _context.Personel.Add(p);
-            _context.SaveChanges();
-            return Ok();
-        }*/
+        /* [HttpPost]
+         public ActionResult Post([FromQuery(Name="id")]int id, 
+                               [FromQuery(Name = "adi")]string adi,
+                               [FromQuery(Name = "soyadi")]string soyadi)
+         {
+             Personel p = new Personel();
+             p.PId = id;
+             p.Adi = adi;
+             p.Soyadi = soyadi;
+             _context.Personel.Add(p);
+             _context.SaveChanges();
+             return Ok();
+         }*/
 
-        [HttpPost]
-        public ActionResult Post(Personel p)
+        [HttpPost] 
+        public async Task<ActionResult> Post([FromBody]Personel p)
         {
+            Console.WriteLine(p);
             _context.Personel.Add(p);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return Ok();
         }
-        
+
+
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)

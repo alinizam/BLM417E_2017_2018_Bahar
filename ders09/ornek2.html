@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app="demoApp" ng-controller="myController">
+<p>Today's welcome message is:</p>
+<h1>{{message}}</h1>
+</div>
+<p>A page is requested on server by $http, and the response is set as the value of the "message" variable.</p>
+<script>
+var httpmodule = angular.module('demoApp', []);
+httpmodule.controller('myController', function($scope, $http) {
+  $http.get("paris.htm").then(function (response) {
+     $scope.message = response.data;
+    });
+  });
+</script>
+</body>
+</html>

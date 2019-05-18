@@ -9,3 +9,14 @@ C:\Users\FSMBLM1\source\repos\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\de
 C:\Users\FSMBLM1\source\repos\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.AssemblyInfo.cs
 C:\Users\FSMBLM1\source\repos\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.dll
 C:\Users\FSMBLM1\source\repos\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.pdb
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\bin\Debug\netcoreapp2.0\ders8Ornek1.deps.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\bin\Debug\netcoreapp2.0\ders8Ornek1.runtimeconfig.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\bin\Debug\netcoreapp2.0\ders8Ornek1.runtimeconfig.dev.json
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\bin\Debug\netcoreapp2.0\ders8Ornek1.dll
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\bin\Debug\netcoreapp2.0\ders8Ornek1.pdb
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.csprojAssemblyReference.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.csproj.CoreCompileInputs.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.AssemblyInfoInputs.cache
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.AssemblyInfo.cs
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.dll
+D:\calisma\verilen dersler\Internet Programlama\2018_2019_Bahar\code\ders08\ders8Ornek1\ders8Ornek1\obj\Debug\netcoreapp2.0\ders8Ornek1.pdb

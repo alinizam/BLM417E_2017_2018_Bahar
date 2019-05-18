@@ -1,0 +1,20 @@
+<!--var o=[{id:1, isim:'Ahmet'}, {id:2, isim:'Ahmet'} ];
+<servis class="getPersonel"></servis>
+id'si verilen personeli ekrana azdırınız. (id,   input)
+-->
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<p>Seçilen personel: {{personel.isim}}</p>
+<input type="text" ng-model="pId"> </input>
+<input type="button" value="Bul" ng-click="getPersonel()">   </input>
+<input type="text" ng-model="pIsim"> </input>
+<p ng-bind="pIsim"></p> 
+<p ng-bind={{"::pIsim"}}></p> 
+</div>
+<p>A custom service with a method that converts a given number into a octal number.</p>
+<script src="d11o7.js"></script>
+</body>
+</html>

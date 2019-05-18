@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.0.1/angular.min.js"></script>
+</head>
+<body ng-controller="MyCtrl">
+    {{serviceOutput}}
+    <br/><br/>
+    {{factoryOutput}}
+    <br/><br/>
+    {{providerOutput}}
+    <script>
+        var app = angular.module( 'app', [] );
+        var MyFunc = function() {
+            this.name = "default name";
+            this.$get = function() {this.name = "new name  ";  return "Hello from MyFunc.$get(). this.name = " + this.name;};
+            return "Hello from MyFunc(). this.name = " + this.name;
+        };
+        app.service( 'myService', MyFunc );
+        app.factory( 'myFactory', MyFunc );
+        app.provider( 'myProv', MyFunc );
+        function MyCtrl( $scope, myService, myFactory, myProv ) {
+            $scope.serviceOutput = "myService = " + myService;
+            $scope.factoryOutput = "myFactory = " + myFactory;
+            $scope.providerOutput = "myProvider = " + myProv;
+        }
+    </script>
+</body>
+</html>

@@ -27,7 +27,21 @@ namespace ders8Ornek1
         {
             services.AddMvc();
             services.AddDbContext<personelDBContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //enbling external request (fsmvu)
+            services.AddCors(options =>
+            {
+                options.AddPolicy("app-cors-policy",
+                    builder =>
+                    {
+                        builder
+                            .AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
+                            .AllowCredentials()
+                        ;
+                    });
 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,7 +51,7 @@ namespace ders8Ornek1
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("app-cors-policy");
             app.UseMvc();
         }
     }

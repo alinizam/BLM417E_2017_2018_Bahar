@@ -1,0 +1,26 @@
+<!--var o=[{id:1, isim:'Ahmet'}, {id:2, isim:'Ahmet'} ];
+<servis class="getPersonel"></servis>
+id'si verilen personeli ekrana azdırınız. (id, --> input)
+-->
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<p>The octal value of 225 is: {{hex}}</p>
+</div>
+<p>A custom service with a method that converts a given number into a octal number.</p>
+<script>
+var app = angular.module('myApp', []);
+app.service('demo', function() {
+
+  this.myFunc = function (x) {
+     return x.toString(8);
+   }
+});
+app.controller('myCtrl', function($scope, demo) {
+   $scope.hex = demo.myFunc(225);
+});
+</script>
+</body>
+</html>
